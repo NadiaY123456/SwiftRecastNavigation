@@ -9,7 +9,7 @@ When you play a game, it feels obvious that characters know where they can walk 
 
 SwiftRecastNavigation brings the industry-standard Recast & Detour navigation libraries to Swift with a clean, modern API. Built upon Miguel de Icaza's SwiftNavigation foundation, this framework helps you generate navigation meshes, find paths, simulate crowds, and handle complex terrain without touching C++.
 
-There’s also an open‑source companion app, SwiftRecastDemo (macOS), that uses this library end‑to‑end. It’s both a reference implementation and an offline navmesh tool: load terrain (USDZ/USD/OBJ), apply “splat” area masks, tune agent/world parameters, preview the mesh, run path tests, and export ready‑to‑ship files (`.bin`, `.obj`, `.usda`) you can load at runtime if you don’t need on‑device generation. Repo: TO ADD
+There’s also an open‑source companion app, [SwiftRecastDemo](https://github.com/NadiaY123456/SwiftRecastDemo) (macOS), that uses this library end‑to‑end. It’s both a reference implementation and an offline navmesh tool: load terrain (USDZ/USD/OBJ), apply “splat” area masks, tune agent/world parameters, preview the mesh, run path tests, and export ready‑to‑ship files (`.bin`, `.obj`, `.usda`) you can load at runtime if you don’t need on‑device generation.
 
 
 The framework includes pathfinding, crowd simulation with avoidance, RealityKit integration for spatial computing, and a "splat painting" system that ingests textures with painted navigation areas (roads, water, grass) to automatically generate area-coded geometry that affects pathfinding costs and behavior.
